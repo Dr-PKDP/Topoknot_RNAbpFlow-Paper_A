@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated manuscript."
+title: "Topology-Aware Calibration Reveals Target-Specific Ensemble Variation in Generative RNA Structure Prediction"
+type: software
+authors:
+  - family-names: "FAMILY NAME"
+    given-names: "GIVEN NAME"
+    affiliation: "AFFILIATION"
+# Add all authors in author order; one block per author.
+repository-code: "REPOSITORY URL"
+license: MIT

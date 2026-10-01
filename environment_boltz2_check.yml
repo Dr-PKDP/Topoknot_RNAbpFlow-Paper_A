@@ -1,0 +1,12 @@
+name: boltz2_check
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - pip:
+      - boltz
+# cuequivariance_torch is not installed in this environment; run boltz predict
+# with --no_kernels. Exact versions not recorded; confirm and pin before
+# publishing.

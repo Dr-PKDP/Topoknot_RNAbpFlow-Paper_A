@@ -1,0 +1,9 @@
+name: ipknot_build
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - viennarna
+  - glpk
+# Exact versions not recorded; confirm and pin before publishing.

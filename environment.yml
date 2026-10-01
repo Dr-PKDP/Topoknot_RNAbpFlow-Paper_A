@@ -1,0 +1,15 @@
+name: rnabpflow
+channels:
+  - pytorch
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python
+  - pytorch
+  - pip
+  - pip:
+      - torch_scatter
+# Exact Python and package versions are not recorded in the source environment
+# notes; confirm with `python3 -c "import sys; print(sys.version)"` and
+# `pip freeze` on the server and pin them here before publishing.

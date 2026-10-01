@@ -1,0 +1,19 @@
+name: paperA_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - scipy=1.*
+  - pip
+  - pip:
+      - statsmodels==0.14.*
+      - openpyxl
+      - biopython
+      - matplotlib
+# Versions for scipy/statsmodels match what the manuscript's Methods states was
+# used (scipy 1.x, statsmodels 0.14). Exact patch versions not recorded; confirm
+# on the server before publishing. Covers analysis/compute_statistics.py,
+# analysis/target_multimodality_diagnostic.py, analysis/compare_k50_vs_k100.py,
+# analysis/validate_synthetic.py, analysis/apo_holo_overlay_python.py.
